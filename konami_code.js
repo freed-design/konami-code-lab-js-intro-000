@@ -21,5 +21,5 @@ function init() {
 
     const main = document.body
 
-    main.addEventListener('keydown', onKeyDownHandler(e))
+    main.addEventListener('keydown', onKeyDownHandler())
 }
